@@ -185,3 +185,4 @@ if st.session_state.username:
                     proj['Progress'] = round(total / len(proj['Subtasks']))
                     save_projects_to_excel(projects)
                     st.success("Task added!")
+                    # end of file 
